@@ -1,0 +1,7 @@
+{
+    "name": "lerna-test",
+    "scripts": {},
+    "devDependencies": {
+        "lerna": "^3.22.1"
+    }
+}
