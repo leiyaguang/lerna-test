@@ -1,0 +1,32 @@
+{
+  "name": "@lerna-test/test",
+  "version": "1.0.2-alpha.1",
+  "description": "> TODO: description",
+  "author": "leiyaguang <379536728@qq.com>",
+  "homepage": "https://github.com/leiyaguang/lerna-test#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leiyaguang/lerna-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/leiyaguang/lerna-test/issues"
+  },
+  "dependencies": {
+    "@lerna-test/core": "^1.0.2-alpha.1"
+  }
+}
