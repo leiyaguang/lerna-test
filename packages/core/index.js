@@ -1,3 +1,3 @@
 export default function a() {
-    console.log(111);
+    console.log(1112222222);
 }
