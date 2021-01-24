@@ -1,3 +1,3 @@
-export default function a() {
-    console.log(1112222222);
+export default function hello(name) {
+    console.log(`hello ${name}`);
 }

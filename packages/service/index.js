@@ -1,3 +1,3 @@
-import a from '@lerna-test/core';
+import hello from '@lerna-test/core';
 
-a();
+hello('JJ');
