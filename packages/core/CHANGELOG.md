@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/leiyaguang/lerna-test/compare/@ipalfish/pay@0.4.0...@ipalfish/pay@0.4.1) (2021-06-29)
+
+### Features
+
+-   function b ([262f3ec](https://github.com/leiyaguang/lerna-test/commit/262f3ec176b1d524e820245ec30bd81baef5ece6))
+
 # [0.4.0](https://github.com/leiyaguang/lerna-test/compare/@ipalfish/pay@0.3.0...@ipalfish/pay@0.4.0) (2021-06-29)
 
 ### Features
