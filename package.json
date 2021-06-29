@@ -1,0 +1,29 @@
+{
+    "name": "pay-monorepo",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "prepare": "husky install",
+        "version": "lerna version --conventional-commits"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^12.1.4",
+        "@commitlint/config-conventional": "^12.1.4",
+        "@commitlint/config-lerna-scopes": "^12.1.4",
+        "@ipalfish/eslint-config-ipalfish": "^1.2.1",
+        "husky": "^6.0.0",
+        "lerna": "^4.0.0",
+        "lint-staged": "^11.0.0",
+        "prettier": "^2.3.2"
+    },
+    "lint-staged": {
+        "*.js": [
+            "eslint --fix --ignore-pattern '!.eslintrc.js'"
+        ],
+        "*.{js,json,md}": [
+            "prettier --write"
+        ]
+    }
+}

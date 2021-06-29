@@ -1,0 +1,22 @@
+{
+    "name": "@ipalfish/pay-vue",
+    "version": "0.0.1",
+    "description": "> TODO: description",
+    "author": "leiyaguang13052 <leiyaguang13052@ipalfish.com>",
+    "homepage": "",
+    "license": "MIT",
+    "main": "lib/vue.js",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib"
+    ],
+    "publishConfig": {
+        "registry": "https://npm.pri.ibanyu.com"
+    },
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    }
+}
