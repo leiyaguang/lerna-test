@@ -6,6 +6,7 @@
     ],
     "scripts": {
         "prepare": "husky install",
+        "version": "lerna version",
         "release": "lerna publish"
     },
     "devDependencies": {
