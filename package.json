@@ -6,7 +6,7 @@
     ],
     "scripts": {
         "prepare": "husky install",
-        "version": "lerna version --conventional-commits"
+        "version": "lerna version"
     },
     "devDependencies": {
         "@commitlint/cli": "^12.1.4",

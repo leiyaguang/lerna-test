@@ -5,7 +5,8 @@
     "packages": ["packages/*"],
     "command": {
         "version": {
-            "message": "chore: publish %s"
+            "message": "chore: publish %s",
+            "conventionalCommits": true
         },
         "publish": {
             "allowBranch": "master"
